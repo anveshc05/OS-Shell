@@ -17,8 +17,9 @@ Displays appropriate shell prompt considering the directory in which the program
 ** Extra functionality of displaying environment variables like $HOME, $PWD added in 'echo' command.
 
 **Specification 3:**
-Typing only **ls** gives the output as expected.
-It works for the flag '-l' and '-a'.The ordering or the number of '-l' and '-a' does not affect the execution of the command. Arguments with file names can be given with the command.
+
+- Typing only **ls** gives the output as expected.
+- It works for the flag '-l' and '-a'.The ordering or the number of '-l' and '-a' does not affect the execution of the command. Arguments with file names can be given with the command.
 
 **Specification 4:**
 * System commands running using 'execvp'.
